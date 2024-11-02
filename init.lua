@@ -8,6 +8,7 @@ vim.g.maplocalleader = ' '
 vim.g.have_nerd_font = true
 
 require 'custom'
+require 'custom.keymaps'
 
 -- [[ Setting options ]]
 -- See `:help vim.opt`
@@ -237,6 +238,8 @@ require('lazy').setup({
         { '<leader>w', group = '[W]orkspace' },
         { '<leader>t', group = '[T]oggle' },
         { '<leader>h', group = 'Git [H]unk', mode = { 'n', 'v' } },
+        { '<leader>p', group = '[P]ython Functions' },
+        { '<leader>l', group = '[L]azy Utils' },
       },
     },
   },

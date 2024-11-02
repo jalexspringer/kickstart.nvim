@@ -20,7 +20,7 @@ return {
           winbar = '%{v:lua.CustomOilBar()}',
         },
         view_options = {
-          show_hidden = false,
+          show_hidden = true,
         },
       }
 
